@@ -1,3 +1,14 @@
+--You need to create a report on whether customers who purchased the product named '2TB Red 5400 rpm SATA III 3.5 Internal NAS HDD' buy the products below or not.
+
+
+
+--1. 'Polk Audio - 50 W Woofer - Black' -- (first_product)
+
+--2. 'SB-2000 12 500W Subwoofer (Piano Gloss Black)' -- (second_product)
+
+--3. 'Virtually Invisible 891 In-Wall Speakers (Pair)' -- (third_product)
+
+
 
 select A.customer_id, A.first_name, A.last_name
 from sale.customer A
